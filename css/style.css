@@ -59,7 +59,7 @@ box-sizing: inherit;
 /*nav-menu-item*/
 
 .nav-menu-item > .link{
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 /* .nav-menu-item {
@@ -75,6 +75,7 @@ box-sizing: inherit;
 } */
 
 /* block html */
+
 .boxs {
   max-width: 1040px;
   border: 1px solid #ffffff;
@@ -94,3 +95,70 @@ box-sizing: inherit;
   border: 10px solid aqua;
   outline: 1px solid coral;
 }
+
+/* nameT */
+
+.nameT {
+  color: #ffffff;
+  width: 636px;
+  margin: 200px 0 342px;
+  font-size: 48px;
+  width: 636px;
+  height: 201px;
+  line-height: 140%;
+}
+
+/*f*/
+
+.f{
+  gap: 12px;
+  display: flex;
+  color: #ffffff;
+}
+
+/*f-item*/
+
+.f-item {
+  background: #8D86C9;
+  width: 315px;
+  height: 151px;
+  margin-bottom: 150px;
+}
+
+/*p1/2*/
+
+.p1{
+  margin-left: 35px;
+  margin-top: 35px;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.p2{
+  margin-left: 35px;
+  margin-top: 17px;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+/*play-t*/
+
+.play-t{
+  display: flex;
+  gap: 24px;
+}
+
+/*play-t-ul-item*/
+
+.play-t-ul-item{
+  border: #F7ECE1;
+  padding: 25px 20px;
+}
+
+.svg{
+  display: block;
+  fill: #ffffff;
+  width: 36px;
+  height: 36px;
+}
+
