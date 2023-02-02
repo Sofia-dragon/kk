@@ -42,6 +42,9 @@ box-sizing: inherit;
   align-items: center;
 }
 
+
+
+
 /* nav */
 
 .nav{
@@ -181,6 +184,12 @@ box-sizing: inherit;
 
 .nav-footer-menu-item > .link{
   color: #000000;
+
+}
+
+.nav-footer-menu-item{
+  color: #000000;
+  
 }
 
 .div-footer{
@@ -190,3 +199,27 @@ box-sizing: inherit;
   align-items: center;
 }
 
+.rights{
+  color: #333333;
+}
+
+.trainers-list{
+  display: flex;
+  gap: 24px;
+  color: #ffffff;
+}
+
+
+.trainers > h2{
+  color: #ffffff;
+}
+
+.trainers-li > p{
+  width: 196px;
+}
+
+.trainers-li > img{
+  padding: 0 15px;
+  border: 1px solid #F7ECE1;
+  width: 196px;
+}
