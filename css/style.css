@@ -35,7 +35,6 @@ box-sizing: inherit;
 .container {
   max-width: 1296px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 
 .header-container{
@@ -100,12 +99,12 @@ box-sizing: inherit;
 
 .nameT {
   color: #ffffff;
-  width: 636px;
   margin: 200px 0 342px;
   font-size: 48px;
   width: 636px;
   height: 201px;
-  line-height: 140%;
+  line-height: 1.4;
+  font-weight: 700;
 }
 
 /*f*/
@@ -114,15 +113,15 @@ box-sizing: inherit;
   gap: 12px;
   display: flex;
   color: #ffffff;
+  margin-bottom: 150px;
 }
 
 /*f-item*/
 
 .f-item {
-  background: #8D86C9;
   width: 315px;
   height: 151px;
-  margin-bottom: 150px;
+  background: #8D86C9;
 }
 
 /*p1/2*/
@@ -144,21 +143,50 @@ box-sizing: inherit;
 /*play-t*/
 
 .play-t{
-  display: flex;
-  gap: 24px;
+  margin-bottom: 954px;
 }
 
 /*play-t-ul-item*/
 
 .play-t-ul-item{
-  border: #F7ECE1;
+  border: 1px solid #F7ECE1;
   padding: 25px 20px;
 }
-
+.play-t-ul{
+  display: flex;
+  gap: 24px;
+}
 .svg{
   display: block;
+  flex-direction: row;
   fill: #ffffff;
   width: 36px;
   height: 36px;
+}
+
+/*.nav2{
+  display: flex;
+  margin-left: 185px;
+  gap: 26px;
+}*/
+
+
+.nav-footer-menu {
+  display: flex;
+  gap: 40px;
+  margin-left: 104px;
+}
+
+/*nav-menu-item*/
+
+.nav-footer-menu-item > .link{
+  color: #000000;
+}
+
+.div-footer{
+  display: flex;
+  padding: 38px 0 0 104px;
+  background: #F7ECE1;
+  align-items: center;
 }
 
