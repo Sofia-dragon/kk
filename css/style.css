@@ -14,7 +14,13 @@ ul {
 
 body {
   background-color: #232323;
+  font-family: 'Gilroy';
 }
+
+p, h2, h3, h4{
+  margin: 0;
+}
+
 /* main html */
 
 html{
@@ -148,16 +154,16 @@ box-sizing: inherit;
   margin-bottom: 954px;
 }
 
-/*play-t-ul-item*/
-
-.play-t-ul-item{
-  border: 1px solid #F7ECE1;
-  padding: 25px 20px;
-}
 .play-t-ul{
   display: flex;
   gap: 24px;
 }
+
+.photos-play-t{
+  border: 1px solid #F7ECE1;
+  padding: 25px 20px;
+}
+
 .svg{
   display: block;
   flex-direction: row;
@@ -176,7 +182,6 @@ box-sizing: inherit;
 .nav-footer-menu {
   display: flex;
   gap: 40px;
-  margin-left: 104px;
 }
 
 /*nav-menu-item*/
@@ -191,11 +196,16 @@ box-sizing: inherit;
   
 }
 
+nav.nav-footer{
+  margin-left: 104px;
+}
+
 .div-footer{
   display: flex;
-  padding: 38px 0 0 104px;
+  padding: 38px 0;
   background: #F7ECE1;
   align-items: center;
+  justify-content: center;
 }
 
 .trainers{
@@ -203,7 +213,7 @@ box-sizing: inherit;
 }
 
 .rights{
-  color: #333333;
+  opacity: 0.3;
 }
 
 .trainers-list{
@@ -225,9 +235,12 @@ box-sizing: inherit;
   text-align: center;
 }
 
-.trainers-li > img{
+.photos-coaches{
   padding: 0 15px;
   border: 1px solid #F7ECE1;
+}
+
+.trainers-li > img{
   width: 196px;
 }
 .trainers-li > h4{
@@ -244,6 +257,7 @@ box-sizing: inherit;
 
 .price-list-item{
   width: 526px;
+  display: flex;
   height: 60px;
   font-size: 21px;
   background: #8D86C9;
@@ -262,4 +276,10 @@ box-sizing: inherit;
   color: #ffffff;
   margin-bottom: 75px;
   font-size: 36px;
+}
+
+.button{
+  color: #ffffff;
+  border: transparent;
+  background: #8D86C9;
 }
