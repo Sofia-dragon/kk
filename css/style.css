@@ -120,12 +120,16 @@ box-sizing: inherit;
 
 .nameT {
   color: #ffffff;
-  margin: 200px 0 342px;
   font-size: 48px;
   width: 636px;
   height: 201px;
   line-height: 1.4;
   font-weight: 700;
+  margin-bottom: 342px;
+}
+
+.hero{
+  padding-top: 200px;
 }
 
 /*f*/
@@ -230,8 +234,7 @@ nav.nav-footer{
 }
 
 
-.trainers > h2{
-  margin-left: 312px;
+.trainers h2{
   margin-bottom: 75px;
   font-size: 36px;
   color: #ffffff;
@@ -293,23 +296,32 @@ nav.nav-footer{
 }
 
 .news{
-
+  text-align: center;
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 140%;
+  font-weight: 700;
+  margin: 80px;
 }
 
 .news-section{
-
+  margin-bottom: 120px;
 }
 
-.news-lis{
-
+.news-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 
 .news-list-item{
-
 }
 
 .news-div{
-
+  padding: 30px 40px;
+  border: 1px solid #F7ECE1;
+  width: 416px;
+  height: 512px;
 }
 
 .news-div-img{
@@ -317,7 +329,8 @@ nav.nav-footer{
 }
 
 .news-div-p{
-
+  color: #ffffff;
+  opacity: 0.5;
 }
 
 .news-div-h4{
