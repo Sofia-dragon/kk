@@ -129,6 +129,7 @@ box-sizing: inherit;
 
 .hero{
   padding-top: 200px;
+  background-color: #232323;
 }
 
 /*f*/
@@ -229,14 +230,12 @@ nav.nav-footer{
 .trainers-list{
   display: flex;
   gap: 24px;
-  color: #ffffff;
 }
 
 
 .trainers h2{
   margin-bottom: 75px;
   font-size: 36px;
-  color: #ffffff;
 }
 
 .trainers-li > p{
@@ -277,7 +276,6 @@ nav.nav-footer{
 }
 
 .price1div h2{
-  color: #ffffff;
   margin-bottom: 75px;
   font-size: 36px;
 }
@@ -302,12 +300,14 @@ nav.nav-footer{
   padding-top: 30px;
   padding-bottom: 60px;
   background-color: #232323;
+  margin: 0;
 }
 
 .news{
   background-color: #232323;
 }
 .news-section{
+  margin-top: 80px;
   margin-bottom: 120px;
 }
 
@@ -338,12 +338,28 @@ nav.nav-footer{
 }
 
 .news-div-h4{
-
+  font-size: 21px;
 }
 .news-button{  
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 20px;
   width: 137px;
   height: 45px;
   background: #8D86C9;
   border: transparent;
   color: #ffffff;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.news-button1{
+  margin-top: 49px;
+}
+
+.news-button{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
 }
