@@ -10,16 +10,21 @@ ul {
   text-decoration: none;
 }
 
-/* style */
-
-body {
-  background-color: #232323;
-  font-family: 'Gilroy';
-}
-
 p, h2, h3, h4{
   margin: 0;
 }
+
+img{
+  display: block;
+}
+
+/* style */
+
+body {
+  font-family: 'Gilroy';
+  background-color: #232323;
+}
+
 
 /* main html */
 
@@ -34,6 +39,14 @@ box-sizing: inherit;
 .header {
   padding: 30px 0;
   border-bottom: 1px solid #ffffff;
+}
+
+.svg{
+  display: block;
+  flex-direction: row;
+  fill: #ffffff;
+  width: 36px;
+  height: 36px;
 }
 
 /* container */
@@ -54,6 +67,7 @@ box-sizing: inherit;
 
 .nav{
   margin-left: 124px;
+
 }
 
 /* nav-menu */
@@ -91,7 +105,6 @@ box-sizing: inherit;
 .show {
   display: inline-block;
   padding: 12px 28px;
-
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
@@ -159,17 +172,9 @@ box-sizing: inherit;
   gap: 24px;
 }
 
-.photos-play-t{
+.photos-play{
   border: 1px solid #F7ECE1;
   padding: 25px 20px;
-}
-
-.svg{
-  display: block;
-  flex-direction: row;
-  fill: #ffffff;
-  width: 36px;
-  height: 36px;
 }
 
 /*.nav2{
@@ -199,6 +204,8 @@ box-sizing: inherit;
 nav.nav-footer{
   margin-left: 104px;
 }
+
+/*footer*/
 
 .div-footer{
   display: flex;
@@ -231,7 +238,6 @@ nav.nav-footer{
 }
 
 .trainers-li > p{
-  width: 196px;
   text-align: center;
 }
 
@@ -245,34 +251,30 @@ nav.nav-footer{
 }
 .trainers-li > h4{
   text-align: center;
-  width: 196px;
-  height: 58px;
   font-size: 21px;
+  margin-top: 25px;
+  margin-bottom: 15px;
 }
 
 .price{
   margin-left: 312px;
-  margin-bottom: 150px;
+  padding: 150px;
 }
 
 .price-list-item{
-  width: 526px;
-  display: flex;
-  height: 60px;
   font-size: 21px;
-  background: #8D86C9;
   align-items: center;
-  padding-left: 30px;
 }
 
 .price-list{
-  color: #ffffff;
+  color: #000000;
   gap: 30px;
   display: flex;
   flex-direction: column;
+  width: 526px;
 }
 
-.price1div > h2{
+.price1div h2{
   color: #ffffff;
   margin-bottom: 75px;
   font-size: 36px;
@@ -282,4 +284,42 @@ nav.nav-footer{
   color: #ffffff;
   border: transparent;
   background: #8D86C9;
+  width: 100%;
+  display: flex;
+  height: 60px;
+  padding: 15.5px 0;
+  text-align: start;
+  padding-left: 30px;
+}
+
+.news{
+
+}
+
+.news-section{
+
+}
+
+.news-lis{
+
+}
+
+.news-list-item{
+
+}
+
+.news-div{
+
+}
+
+.news-div-img{
+
+}
+
+.news-div-p{
+
+}
+
+.news-div-h4{
+
 }
