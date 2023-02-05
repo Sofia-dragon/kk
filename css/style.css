@@ -152,19 +152,25 @@ box-sizing: inherit;
 /*p1/2*/
 
 .p1{
+  font-weight: 600;
   font-size: 18px;
   line-height: 140%;
+  text-align: start;
 }
 
 .p2{
   margin-top: 17px;
   font-size: 24px;
   line-height: 140%;
+  font-weight: 700;
 }
 
 .f-item button{
   padding-left: 35px;
   padding-top: 36px;
+  background: #8D86C9;
+  border: transparent;
+  color: #ffffff;
 }
 
 /*play-t*/
